@@ -1,0 +1,70 @@
+body{margin: 0%;
+}
+@media (max-aspect-ratio: 7/10){
+    .JoinPage{
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+    }
+    .JoinContainer{
+        width:100% !important;
+    }
+    .JoinContainer > img{
+        padding-top: 1%;
+        width:10vmax;
+    }
+    .JoinContainer > h1{
+        
+        font-size: 2vmax;
+        width:55vw !important;
+        padding:1vmax;
+    }
+    #JoinInput{
+        width:55vw !important;
+        height:1vmax;
+        padding:4vw;
+        font-size: 5vw;
+        margin: 2vmax;
+        box-sizing: border-box;
+    }
+    #JoinBtn{
+        width:55vw !important;
+        padding:4vw;
+        font-size: 5vw;
+    }
+    .chatContainer{
+        background-color: rgb(159, 239, 182);
+        height:100%;
+        width:100%;
+        border:0.2vmax solid black;
+    }
+    .header{
+        height:10%;
+    }
+    .header>div{
+        margin:6vw;
+     }
+     .inputBox{
+        height:10%;
+    }
+    #chatInput{
+        padding:4vw;
+        height:20%;
+        font-size:4vw;
+
+    }
+    .sendBtn{
+        padding:1vmax;
+        width:15%;
+        height:55%;
+        border-radius: 4%;
+        margin-top: 1%;
+        margin-left: 1%;
+        margin-bottom: 1%;
+        background-color: rgb(233, 230, 68);
+        box-sizing: border-box;
+        cursor:pointer;
+        
+    }
+
+}
